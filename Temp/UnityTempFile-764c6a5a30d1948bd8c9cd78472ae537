@@ -1,0 +1,319 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/ActionPreset/AP_BulletFollowPreset.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/ActionPreset/AP_FastHit.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/ActionPreset/AP_HitSlowPreset.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/ActionPreset/AP_SlowHitPreset.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/ActionPreset/AP_Slowmotion.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Common/AS_RagdollReplace.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Common/AS_rotation.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Common/Hit_Body.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Common/Hit_Head.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Common/Hit_Normal.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_ActionCamera.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_ActionPreset.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_Bullet.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_BulletHiter.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_Environment.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_SniperManager.cs'
+'Assets/AdvancedSniperStarterKit/AdvancedBullet/Scripts/Core/AS_SoundOnHit.cs'
+'Assets/AdvancedSniperStarterKit/ForUFPS/AnimationClone.cs'
+'Assets/AdvancedSniperStarterKit/ForUFPS/CameraClone.cs'
+'Assets/AdvancedSniperStarterKit/ForUFPS/WeaponZoom.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Component/FreeCamera.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Component/TouchScreenVal.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/CharacterMotor.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/Crosshair.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/FPSController.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/FPSInputController.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/FPSInputControllerMobile.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/Gun.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/GunHanddle.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/HowTo.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/MouseLock.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/FPSplayer/Scripts/ShellDrop.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/DamageManager.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/DummyTarget.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/Enemy.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/EnemySpawner.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/MuzzleFlash.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/RagdollForce.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/ScoreManager.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/SimpleController.cs'
+'Assets/AdvancedSniperStarterKit/SniperGame/Scripts/Spawner.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/AdvancedSniperStarterKit/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_FloatFieldAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_HelpBoxAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_ItemAmountAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_ItemIDAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_ItemTypeAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_PropertyDrawerUtility.cs.cs'
+'Assets/UFPS/Base/Scripts/Core/Attributes/vp_SeparatorAttribute.cs'
+'Assets/UFPS/Base/Scripts/Core/ComponentSystem/vp_Component.cs'
+'Assets/UFPS/Base/Scripts/Core/ComponentSystem/vp_ComponentPreset.cs'
+'Assets/UFPS/Base/Scripts/Core/ComponentSystem/vp_State.cs'
+'Assets/UFPS/Base/Scripts/Core/ComponentSystem/vp_StateManager.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_Activity.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_Attempt.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_Event.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_EventDump.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_EventHandler.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_GlobalEvent.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_Message.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_StateEventHandler.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_TargetEvent.cs'
+'Assets/UFPS/Base/Scripts/Core/EventSystem/vp_Value.cs'
+'Assets/UFPS/Base/Scripts/Core/Help/vp_Help.cs'
+'Assets/UFPS/Base/Scripts/Core/Help/vp_UFPSHelp.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_AngleBob.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Billboard.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Bob.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Perlin.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_RigidbodyImpulse.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Spin.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Spring.cs'
+'Assets/UFPS/Base/Scripts/Core/Motion/vp_Toss.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_3DUtility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_AudioUtility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_Gizmo.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_Input.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_Layer.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_MaterialUtility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_MathUtility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_ParticleFXPooler.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_PoolManager.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_TimeUtility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_Timer.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_Utility.cs'
+'Assets/UFPS/Base/Scripts/Core/Utility/vp_WaypointGizmo.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_DemoManager.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_DoomsDayDevice.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_FPSDemo1.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_FPSDemo2.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_FPSDemo3.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_FPSDemoManager.cs'
+'Assets/UFPS/Base/Scripts/Demo/vp_FPSDemoPlaceHolderMessenger.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_DecalManager.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_Effect.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_ImpactEvent.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_SurfaceEffect.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_SurfaceIdentifier.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_SurfaceManager.cs'
+'Assets/UFPS/Base/Scripts/Effects/SurfaceSystem/vp_SurfaceType.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_Debris.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_DecalManager.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_FadingDecal.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_MuzzleFlash.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_PlayerFootFXHandler.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_PulsingLight.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_RigidbodyFX.cs'
+'Assets/UFPS/Base/Scripts/Effects/vp_Shell.cs'
+'Assets/UFPS/Base/Scripts/GUI/vp_PainHUD.cs'
+'Assets/UFPS/Base/Scripts/GUI/vp_SimpleCrosshair.cs'
+'Assets/UFPS/Base/Scripts/GUI/vp_SimpleHUD.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/AI/vp_SecurityCamTurret.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/AI/vp_SimpleAITurret.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_Bullet.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_DamageHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_DamageInfo.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_DamageTransfer.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_Explosion.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_FXBullet.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_Grenade.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_HitscanBullet.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_Regenerator.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Combat/vp_Shooter.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/Attributes/vp_InventoryCapsAttribute.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/Attributes/vp_InventoryItemsAttribute.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/Attributes/vp_InventorySpaceAttribute.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/ItemTypes/vp_CustomType.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/ItemTypes/vp_ItemType.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/ItemTypes/vp_UnitBankType.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/ItemTypes/vp_UnitType.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/vp_Inventory.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/vp_ItemIdentifier.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/vp_ItemInstance.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/vp_ItemPickup.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Inventory/vp_UnitBankInstance.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/MovingPlatform/vp_MovingPlatform.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/Spawning/vp_Placement.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/Spawning/vp_RandomSpawner.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/Spawning/vp_Remover.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/Spawning/vp_Respawner.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/Spawning/vp_SpawnPoint.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Level/vp_KillZone.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/FootstepManager/vp_FootstepManager.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/FootstepManager/vp_SurfaceIdentifier.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_Climb.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_Grab.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_Interactable.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_ItemGrab.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_PlatformSwitch.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/Interaction/vp_Switch.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPBodyAnimator.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPCamera.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPCameraSmoothToggle.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPController.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPEarthquake.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPInput.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPInteractManager.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPInventory.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPPistolReloader.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPPlayerDamageHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPPlayerEventHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeapon.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponMeleeAttack.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponReloader.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponShooter.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPWeaponThrower.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_LocalPlayer.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_3rdPersonWeaponAim.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_BodyAnimator.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_CapsuleController.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_CharacterController.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_Controller.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_PlayerDamageHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_PlayerEventHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_PlayerInventory.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_PlayerItemDropper.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_PlayerRespawner.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_RagdollHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_SimpleFiring.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_Weapon.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_WeaponHandler.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_WeaponReloader.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_WeaponShooter.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Player/vp_WeaponThrower.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Powerups/vp_HealthPowerup.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Powerups/vp_Powerup.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Powerups/vp_SlomoPowerup.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/Powerups/vp_StatePowerup.cs'
+'Assets/UFPS/Base/Scripts/Gameplay/vp_Gameplay.cs'
+'Assets/UFPS/VR/Scripts/vp_VRCameraManager.cs'
+'Assets/UFPS/VR/Scripts/vp_VRCrosshair.cs'
+'Assets/UFPS/VR/Scripts/vp_VRPainFlash.cs'
+'Assets/UFPS/VR/Scripts/vp_VRTeleporter.cs'
+'Assets/UFPS/VR/Scripts/vp_VRWeaponManager.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
