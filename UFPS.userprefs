@@ -5,7 +5,7 @@
       <File FileName="Assets/UFPS/Base/Scripts/Gameplay/Player/vp_SimpleFiring.cs" Line="70" Column="3" />
       <File FileName="Assets/UFPS/Base/Scripts/Core/Utility/vp_Input.cs" Line="169" Column="5" />
       <File FileName="Assets/UFPS/Base/Scripts/Gameplay/Player/Local/vp_FPInput.cs" Line="144" Column="45" />
-      <File FileName="Assets/Plugins/AltSystems/AltTrees/readme.txt" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/AltSystems/AltTrees/readme.txt" Line="11" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

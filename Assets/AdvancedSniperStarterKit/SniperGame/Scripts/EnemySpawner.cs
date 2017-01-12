@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
 	public float TimeSpawn = 3;
 	public int MaxObject = 10;
 	public string PlayerTag = "Player";
-	public bool PlayerEnter = true;
+	public bool PlayerEnter = false;
 	private float timetemp = 0;
 	private int indexSpawn;
 	private List<GameObject> spawnList = new List<GameObject> ();

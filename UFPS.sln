@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{59D7A00A-8353-4037-E57B-C9A4E31BE9BB}") = "UFPS", "Assembly-CSharp-firstpass.csproj", "{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}"
+EndProject
 Project("{59D7A00A-8353-4037-E57B-C9A4E31BE9BB}") = "UFPS", "Assembly-CSharp.csproj", "{F382651B-F9AC-C6ED-B33C-3C345397377B}"
 EndProject
 Project("{59D7A00A-8353-4037-E57B-C9A4E31BE9BB}") = "UFPS", "Assembly-CSharp-Editor-firstpass.csproj", "{11993C33-E245-276B-A801-5D1D93EC8B83}"
@@ -13,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F382651B-F9AC-C6ED-B33C-3C345397377B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F382651B-F9AC-C6ED-B33C-3C345397377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F382651B-F9AC-C6ED-B33C-3C345397377B}.Release|Any CPU.ActiveCfg = Release|Any CPU

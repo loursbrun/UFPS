@@ -244,8 +244,8 @@ public class AS_Bullet : MonoBehaviour
 			GameObject hitparticle = null;
 			GameObject flowparticle = null;
 			targetLocked = null;
-			float hitparticlelifetime = 3;
-			float flowparticlelifetime = 3;
+			float hitparticlelifetime = 60;
+			float flowparticlelifetime = 60;
 
 			if (hit.collider.GetComponent<Rigidbody>()) {
 				hit.collider.GetComponent<Rigidbody>().AddForce (direction * HitForce, ForceMode.Force);

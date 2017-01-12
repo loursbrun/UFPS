@@ -46,7 +46,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\AboutAltBackup.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\AltBackupIdTerrains_Editor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\AltBackupTerrains.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\AltBackupTerrainsCreate.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\AltBackupTerrainsRestore.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltBackup\CenterOnMainEditorWindow.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AboutAltTrees.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltTreeInstance_Editor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltTree_Editor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltTreesAssetModificationProcessor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltTreesMenu.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltTrees_Editor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\AltWind_Editor.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorCoroutines.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\ImportTreeWindow.cs" />
      <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\InstallerAltTrees\InstallerAltTrees.cs" />
+     <Compile Include="Assets\Plugins\Editor\AltSystems\AltTrees\OffMouseSelect.cs" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
@@ -54,7 +70,9 @@
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\BarkNormalsAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\BarkBumpNormalsAltTree.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
@@ -63,6 +81,7 @@
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Reload.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\SpeedTreeNormalsAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingRight.txt" />
@@ -85,7 +104,9 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\LeavesBumpNormalsAltTree.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\Library\SpeedTreeWindAltTree.cginc" />
      <None Include="Assets\UFPS\Base\Content\Art\Body\Animations\_README_Animations.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullLeft.txt" />
@@ -108,10 +129,12 @@
      <None Include="Assets\UFPS\VR\Content\Presets\VRPistolZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\Projector\AltProjector.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDown.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\BarkAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Attack.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Input.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
@@ -128,6 +151,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\TreeCreatorLeavesAltTree.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\UFPS\VR\Content\Presets\VRMaceDefault.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
@@ -142,6 +166,7 @@
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Zoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\BillboardGroupAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
@@ -159,6 +184,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUpRight.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Plugins\AltSystems\AltBackup\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUp.txt" />
      <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />
@@ -201,6 +227,8 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\Library\SpeedTreeCommonAltTree.cginc" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\Library\SpeedTreeVertexAltTree.cginc" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
@@ -212,6 +240,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullDown.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CrouchInput.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\LeavesAltTree.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\UFPS\VR\Content\Presets\VRMachinegunReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
@@ -235,6 +264,8 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01OutOfControl.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\Library\UnityBuiltin3xTreeLibraryAltTree.cginc" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\TreeCreatorBarkAltTree.shader" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownRight.txt" />
      <None Include="Assets\Plugins\AltSystems\AltTrees\readme.txt" />
@@ -244,11 +275,13 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\LeavesBumpAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Zoom.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\DebugCube.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperWeapon.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
@@ -280,13 +313,17 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Crouch.txt" />
      <None Include="Assets\UFPS\VR\Content\Presets\VRMachinegunRun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\LeavesNormalsAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechShooter.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\BarkBumpAltTree.shader" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\TreeCreatorLeavesNormalsAltTree.shader" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\Library\AltTrees.cginc" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
      <None Include="Assets\AdvancedSniperStarterKit\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
@@ -317,6 +354,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoomInput.txt" />
+     <None Include="Assets\Plugins\Editor\AltSystems\AltTrees\EditorResources\TreeCreatorBarkNormalsAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunOutOfControl.txt" />
@@ -329,6 +367,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Default.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\FootFX\FootFXFixedTimeCrouch.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\BillboardAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
@@ -343,6 +382,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotWristWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
+     <None Include="Assets\Plugins\AltSystems\AltTrees\Shaders\SpeedTreeAltTree.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverOutOfControl.txt" />
      <None Include="Assets\UFPS\VR\Content\Presets\VRRevolverCrouch.txt" />
@@ -416,6 +456,10 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FDE55F8C-734C-A6D4-F54D-911E20C02CE1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
